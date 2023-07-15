@@ -10,6 +10,6 @@ str_count("Hello", 'l'); // returns 2
 str_count("", 'z'); // returns 0*/
 
 
-
+//my soluction 
 var strCount=(str, letter)=> str.split(letter).length -1;
 
