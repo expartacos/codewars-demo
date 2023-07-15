@@ -6,7 +6,7 @@ Examples:
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false*/
 
-
+//my soluction
 function solution(str, ending){
   if(str.substring(str.length -ending.length) === ending){
     return true;
