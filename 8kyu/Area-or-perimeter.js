@@ -9,6 +9,7 @@ Note: for the purposes of this kata you will assume that it is a square if its l
 
 
 
+//my soluction 
 const areaOrPerimeter = function(l , w) {
     // Return your answer
      if (l == w){
