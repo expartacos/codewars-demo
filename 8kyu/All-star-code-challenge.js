@@ -1,1 +1,2 @@
-var strCount=(str, letter)=> str.split('letter').length -1;
+var strCount=(str, letter)=> str.split(letter).length -1;
+
