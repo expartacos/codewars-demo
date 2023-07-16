@@ -1,4 +1,4 @@
-let a ='rafa';
+let a ='diu';
 let b = '';
-b = a.toLocaleLowerCase('lt-LT');
+b = a[0].toUpperCase() + (a.substring(1, a.length));
 console.log(b);
