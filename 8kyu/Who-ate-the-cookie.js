@@ -8,7 +8,7 @@ Please leave feedback for this kata. Cheers!*/
 
 
 
-
+//my soluction
 
 function cookie(x){
     // ...
