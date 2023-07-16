@@ -1,12 +1,15 @@
 function cookie(x){
     // ...
-    if ( x == int || x == float){
+    if ( typeof(x) == 'number'){
       return "monica";
     }
-    else if ( x == string){
+    else if ( typeof(x) == 'string'){
       return "zack";
     }
     else{
       return "cachorro";
     }
+
   }
+
+  console.log(cookie("b"));
