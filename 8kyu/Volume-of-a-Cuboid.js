@@ -7,3 +7,10 @@ class Kata {
       return length * width * height;
     }
   }
+
+
+  //secund soluction 
+
+  const kata = {
+    getVolumeOfCuboid :(length, width, height) => length * width * height
+  }
