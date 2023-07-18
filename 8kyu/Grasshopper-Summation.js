@@ -22,3 +22,4 @@ var summation = function (num) {
 
 
   summation(8);
+
