@@ -1,4 +1,4 @@
-var replaceDots = (str)=>  str.replace(/./g, "-");
+var replaceDots = (str)=>  str.replace(/\./g, "-");
 
 
-console.log(replaceDots("rafa.garcia"));
+console.log(replaceDots("rafa.garcia.rafa"));
