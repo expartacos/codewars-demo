@@ -4,14 +4,36 @@
 
 function getMax1()
 {
-  var max = 
+  const max = 
   {
-   name: 'Max Headroom'
+   name : 'Max Headroom'
   }
-  return max.name;
+  console.log(max.name)
 }
 
 function getMax2() { 
     let name =  'Max Headroom'
-    return name;
+    //return name;
+    console.log(name)
+}
+
+getMax1();
+getMax2();
+
+
+//soluction
+
+function getMax1()
+{
+  var max = 
+  {
+   name: 'Max Headroom'
+  }
+  return max;
+}
+
+function getMax2() {
+  return {
+    name: 'Max Headroom'
+  };
 }
