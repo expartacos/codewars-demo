@@ -1,0 +1,1 @@
+var TempleStrings = (obj, name) => `${obj} are ${name}`
