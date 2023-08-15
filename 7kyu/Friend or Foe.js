@@ -1,11 +1,10 @@
 
 let a = ["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"];
-let nomes = a.map(amigo);
+let nomes = a.filter(amigo);
 
 function amigo(elemento){
-    let b = []
     if(elemento.length === 4 && (typeof elemento) === "string"){
-        return b.push(elemento);
+        return elemento;
     }
 }
 
