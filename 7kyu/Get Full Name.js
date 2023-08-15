@@ -20,7 +20,7 @@ class Dinglemouse{
     }
     
     getFullName(){
-      return `${this._firstName} ${this._lastName}`
+      return `${this._firstName} ${this._lastName}`.trim()
     }
     
   }
